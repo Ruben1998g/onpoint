@@ -6,6 +6,8 @@
     background-color: rgba(22,39,32,0.7);
 }
 
+
+
 .modal__container{
     width:800px;
     height:550px;
@@ -13,6 +15,17 @@
     border-radius:40px;
     margin:auto;
     position: relative;
+}
+
+.modal__container::before{
+    content:"";
+    width:233px;
+    height:689px;
+    display:block;
+    position:absolute;
+    top:-31px;
+    left:-59px;
+    background-image: url('../../img/third-slide-bottle.png');
 }
 
 .modal__close{
@@ -55,3 +68,4 @@
 .modal__slider{
     margin-left:200px;
 }
+

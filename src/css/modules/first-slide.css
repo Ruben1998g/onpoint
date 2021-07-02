@@ -24,6 +24,7 @@
     width:288px;
     margin-left:20px;
     transform: translateY(20px);
+    pointer-events:unset !important;
 }
 
 

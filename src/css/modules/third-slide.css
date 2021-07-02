@@ -95,15 +95,21 @@
 
 
 .third-slide__more{
-    width:250px;
     margin-left:auto;
+    position: relative;
+    z-index:10;
+}
+
+.third-slide__more img{
+    width:250px;
 }
 
 .third-slide__bottle{
     position:absolute;
     bottom:0;
     left:0;
-    z-index:1;
+    z-index:10;
+    margin-left: 48px;
 }
 
 

@@ -36,12 +36,27 @@
     padding:none;
     list-style:none;
     display:flex;
-    width:100px;
-    justify-content:space-between;
+    width:400px;
     margin-top:10px;
     align-items:center;
 }
 
-.mslider__navigation li img{
+.mslider__navigation li:not(:last-child){
+    margin-right:10px;
+}
+
+
+.mslider__navigation li:not(:first-child):not(:last-child){
+    width:21px;
+    height:21px;
+    background-image: url('../../img/circle-empty.png');
     transform:scale(0.5);
+}
+
+.mslider__navigation li{
+    transform:scale(0.5);
+}
+
+.mslider__navigation li.active{
+    background-image: url('../../img/circle.png') !important;
 }

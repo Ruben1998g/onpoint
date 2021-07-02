@@ -44,6 +44,19 @@ body{
 	src:url("../../fonts/DINPro.woff2") format("woff2");
 }
 
+.modal{
+	display:none !important;
+}
 
+.show{
+	display:flex !important;
+}
 
+.slider{
+	user-select:none;
+	touch-action:pan-y;
+}
 
+.slider img{
+	pointer-events:none;
+}
