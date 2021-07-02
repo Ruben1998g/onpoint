@@ -1,0 +1,54 @@
+.slider{
+    display:flex;
+    margin:auto;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.slider__list{
+    width:1024px;
+    height:768px;
+    background-image: url('../../img/bg.jpg');
+    background-color: #fff;
+    background-size:cover;
+    background-repeat:no-repeat;
+    list-style:none;
+    padding:0;
+    margin:0;
+    
+}
+
+.slide__onhome{
+    position:absolute;
+    top:27px; 
+    left:68px;
+    width:153px;
+    z-index:3;
+}
+
+.slider__copyright{
+    position:absolute;
+    width:57px;
+    bottom:15px;
+    left:68px;
+    z-index:3;
+}
+
+.slider__item{
+    padding-top:165px;
+    padding-left:50px;
+    padding-right:50px;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+
+
+
+
+
+
+

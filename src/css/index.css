@@ -2,3 +2,11 @@
 @import './modules/scaffolding.css';
 
 
+@import './modules/slider.css';
+
+@import './modules/first-slide.css';
+@import './modules/second-slide.css';
+@import './modules/third-slide.css';
+
+@import './modules/modal.css';
+@import './modules/mslider.css';

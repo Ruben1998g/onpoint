@@ -1,0 +1,47 @@
+
+
+
+.mslider__item{
+    padding:0;
+    list-style: none;
+}
+
+.mslider__header{
+    margin:0;
+    font-size:24px;
+    line-height:130%;
+    color:#8cc9e8;
+    font-family: GilroyExtraBold, 'sans-serif';
+    font-weight:900;
+}
+
+.mslider__description{
+    margin:0;
+    font-size:24px;
+    line-height:130%;
+    color:#2e2e2e;
+    font-family: DINPRO, 'sans-serif';
+    font-weight:400;
+    margin-top:3px;
+}
+
+
+.mslider__element{
+    margin-bottom:20px;
+}
+
+.mslider__navigation{
+    list-style:none;
+    padding:0;
+    padding:none;
+    list-style:none;
+    display:flex;
+    width:100px;
+    justify-content:space-between;
+    margin-top:10px;
+    align-items:center;
+}
+
+.mslider__navigation li img{
+    transform:scale(0.5);
+}
